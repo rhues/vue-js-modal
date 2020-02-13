@@ -304,7 +304,8 @@ There is also a client build with CSS file extracted to run under CSP. Use /dist
 | clickToClose | false | Boolean       | true        | If set to `false`, it will not be possible to close modal by clicking on the background |
 | transition| false | String           |             | Transition name |
 | overlayTransition| false | String           | 'overlay-fade'| Transition name for the background overlay |
-| classes   | false | [String, Array]  | 'v--modal'| Classes that will be applied to the actual modal box, if not specified, the default `v--modal` class will be applied |
+| classes   | false | [String, Array]  | 'v--modal'  | Classes that will be applied to the modal box, if not specified, the default `v--modal` class will be applied |
+| styles    | false | [String, Array, Object] |      | Style that will be applied to the modal box (currently only supports strings)|
 | width     | false | [String, Number] | 600         | Width in pixels or percents (e.g. 50 or "50px", "50%") |
 | height    | false | [String, Number] | 300         | Height in pixels or percents (e.g. 50 or "50px", "50%") or `"auto"` |
 | minWidth  | false | Number (px)      | 0           | The minimum width to which modal can be resized  |
